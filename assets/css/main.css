@@ -259,7 +259,7 @@ h6 {
   .navmenu .active,
   .navmenu .active:focus {
     color: var(--contrast-color);
-    background-color: var(--nav-hover-color);
+    background-color: #233b53;
   }
 
   .navmenu .dropdown ul {
@@ -927,8 +927,8 @@ section,
 
 .hero .btn-get-started:hover {
   color: var(--contrast-color);
-  background: var(--accent-color);
-  border-color: var(--accent-color);
+  background: #233b53;
+  border-color: #191919;
 }
 
 @media (max-width: 768px) {
@@ -1071,7 +1071,7 @@ section,
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: var(--accent-color);
+  background: black;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -1113,8 +1113,8 @@ section,
 }
 
 .services .service-item:hover {
-  background: var(--accent-color);
-  border-color: var(--accent-color);
+  background: #233b53;
+  border-color: #fff;
 }
 
 .services .service-item:hover .icon {
@@ -1122,7 +1122,7 @@ section,
 }
 
 .services .service-item:hover .icon i {
-  color: var(--accent-color);
+  color: black;
 }
 
 .services .service-item:hover .icon::before {
@@ -1192,8 +1192,8 @@ section,
 }
 
 .call-to-action .cta-btn:hover {
-  background: var(--accent-color);
-  border: 2px solid var(--accent-color);
+  background: #233b53;
+  border: #233b53;
 }
 
 /*--------------------------------------------------------------
