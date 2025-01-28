@@ -1446,6 +1446,14 @@ section,
   max-width: 60%;
   margin: 30px 0;
 }
+.img-fluid1{
+  width:220px;
+  height: 133.27px;
+}
+.img-fluid3{
+  width:220px;
+  height: 133.27px;
+}
 
 .team .member .member-content {
   padding: 0 20px 30px 20px;
