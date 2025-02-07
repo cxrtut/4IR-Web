@@ -593,9 +593,6 @@ h6 {
   transition: 0.3s;
 }
 
-.footer .social-links a:hover {
-  color: #233b53;
-  border-color: black;
 .footer .social-links a:hover{
   color: #060606;
   border: 1px solid black;
@@ -971,9 +968,6 @@ section,
     font-size: 18px;
   }
 }
-/* ////////////////////////////////////////////////////////////// */
-
-
   .swiper-wrapper {
     display: flex;
     flex-direction: row;
@@ -1789,10 +1783,5 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+
 
