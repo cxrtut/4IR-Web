@@ -392,7 +392,7 @@ h6 {
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-dropdown-hover-color);
+    color: #126dc7;
   }
 
   .navmenu .active i,
@@ -542,6 +542,7 @@ h6 {
   justify-content: center;
   align-items: center;
   background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+  border-top: white;
   border-top: 4px solid #233b53;
   padding: 30px 20px;
 }
@@ -580,11 +581,13 @@ h6 {
   transition: 0.3s;
 }
 
+.footer .social-links a:hover {
+  color: #233b53;
+  border-color: black;
 .footer .social-links a:hover{
   color: #060606;
   border: 1px solid black;
 }
-
 .footer h4 {
   font-size: 16px;
   font-weight: bold;
@@ -736,7 +739,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background-color: black;
+  background-color: white;
   width: 40px;
   height: 40px;
   transition: all 0.4s;
@@ -744,13 +747,14 @@ h6 {
 
 .scroll-top i {
   font-size: 24px;
-  color: white;
+  color: black;
   line-height: 0;
   background-color: #060606;
 }
 
 .scroll-top:hover {
-  background-color: #233b53;
+
+  background-color:#233b53;
   color: var(--contrast-color);
 }
 
@@ -976,7 +980,7 @@ section,
 .about .content ul i {
   font-size: 1.25rem;
   margin-right: 4px;
-  color: var(--accent-color);
+  color: black;
 }
 
 .about .content p:last-child {
