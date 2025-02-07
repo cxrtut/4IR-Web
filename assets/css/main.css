@@ -153,6 +153,9 @@ h6 {
   font-style: normal;
   color: white;
 }
+.header .topbar .contact-info :hover {
+   color: #233b53;
+}
 
 .header .topbar .contact-info i a,
 .header .topbar .contact-info i span {
@@ -536,12 +539,13 @@ h6 {
   background-color: var(--background-color);
   font-size: 14px;
   padding-bottom: 50px;
-  position: relative;
+  position: space-around;
 }
 
 .footer .footer-top {
   padding-top: 50px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  
 }
 
 .footer .footer-about {
@@ -551,7 +555,12 @@ h6 {
   align-items: center;
   background-color: color-mix(in srgb, var(--default-color), transparent 95%);
   border-top: white;
+  border-top: 4px solid #233b53;
   padding: 30px 20px;
+}
+.footer .footer-about:hover{
+  background-color: #233b53;
+  border-top: black;
 }
 
 .footer .footer-about .logo {
@@ -587,8 +596,10 @@ h6 {
 .footer .social-links a:hover {
   color: #233b53;
   border-color: black;
+.footer .social-links a:hover{
+  color: #060606;
+  border: 1px solid black;
 }
-
 .footer h4 {
   font-size: 16px;
   font-weight: bold;
@@ -669,14 +680,15 @@ h6 {
   font-size: 16px;
   padding: 0 20px;
   margin: -8px -9px -8px 0;
-  background: var(--accent-color);
+  background: black;
   color: var(--contrast-color);
   transition: 0.3s;
   border-radius: 0;
+
 }
 
 .footer .footer-newsletter .newsletter-form input[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: #233b53;
 }
 
 .footer .copyright {
@@ -749,11 +761,17 @@ h6 {
   font-size: 24px;
   color: black;
   line-height: 0;
+  background-color: #060606;
 }
 
 .scroll-top:hover {
+
   background-color:#233b53;
   color: var(--contrast-color);
+}
+
+.scroll-top i:hover {
+  background-color: #233b53;
 }
 
 .scroll-top.active {
@@ -768,6 +786,7 @@ h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -1501,6 +1520,14 @@ section,
   border-radius: 50%;
   max-width: 60%;
   margin: 30px 0;
+}
+.img-fluid1{
+  width:220px;
+  height: 133.27px;
+}
+.img-fluid3{
+  width:220px;
+  height: 133.27px;
 }
 
 .team .member .member-content {
