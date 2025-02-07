@@ -596,9 +596,6 @@ h6 {
 .footer .social-links a:hover {
   color: #233b53;
   border-color: black;
-.footer .social-links a:hover{
-  color: #060606;
-  border: 1px solid black;
 }
 .footer h4 {
   font-size: 16px;
@@ -1789,10 +1786,5 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+
 
